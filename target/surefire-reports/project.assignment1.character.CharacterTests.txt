@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: project.assignment1.character.CharacterTests
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.062 s <<< FAILURE! - in project.assignment1.character.CharacterTests
-checkIfMonsterDecidesRandomly(project.assignment1.character.CharacterTests)  Time elapsed: 0.013 s  <<< FAILURE!
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.068 s <<< FAILURE! - in project.assignment1.character.CharacterTests
+checkIfMonsterDecidesRandomly(project.assignment1.character.CharacterTests)  Time elapsed: 0.014 s  <<< FAILURE!
 java.lang.AssertionError: [47m[30mMake sure the class Monster contains a method decideMove() as per T4.2 and all previous tasks have been completed.[0mjava.lang.AssertionError: [47m[30mIs your method Monster.decideMove() really random Our test on 100k tries shows that these many decisions were generated for each category up:0 down:0 left:0 right:0 See task 1.5 instructions[0m
 	at project.assignment1.character.CharacterTests.checkIfMonsterDecidesRandomly(CharacterTests.java:325)
 
-checkPlayerClassSuccesfulAttack(project.assignment1.character.CharacterTests)  Time elapsed: 0 s  <<< FAILURE!
+checkPlayerClassSuccesfulAttack(project.assignment1.character.CharacterTests)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: [47m[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.[0mjava.lang.AssertionError: expected:<50> but was:<100>
 	at project.assignment1.character.CharacterTests.checkPlayerClassSuccesfulAttack(CharacterTests.java:217)
 
-checkMonsterClassSuccesfulAttack(project.assignment1.character.CharacterTests)  Time elapsed: 0.001 s  <<< FAILURE!
+checkMonsterClassSuccesfulAttack(project.assignment1.character.CharacterTests)  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: [47m[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.[0mjava.lang.AssertionError: expected:<80> but was:<100>
 	at project.assignment1.character.CharacterTests.checkMonsterClassSuccesfulAttack(CharacterTests.java:119)
 
