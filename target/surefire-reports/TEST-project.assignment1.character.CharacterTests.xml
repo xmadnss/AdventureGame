@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.assignment1.character.CharacterTests" time="0.051" tests="9" errors="0" skipped="0" failures="9">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.assignment1.character.CharacterTests" time="0.062" tests="9" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\mgary2\AppData\Local\Temp\surefire300611501947160682\surefirebooter1922396095351069305.jar C:\Users\mgary2\AppData\Local\Temp\surefire300611501947160682 2021-11-11T15-07-07_941-jvmRun1 surefire4577378587458275961tmp surefire_06015675458431288186tmp"/>
+    <property name="sun.java.command" value="C:\Users\mgary2\AppData\Local\Temp\surefire11383228701975246754\surefirebooter11087437107048026254.jar C:\Users\mgary2\AppData\Local\Temp\surefire11383228701975246754 2021-11-11T16-32-25_225-jvmRun1 surefire5323191325570034149tmp surefire_09592259277658668533tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mgary2\Desktop\ca1\rename-student_name\target\test-classes;C:\Users\mgary2\Desktop\ca1\rename-student_name\target\classes;C:\Users\mgary2\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mgary2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mgary2\AppData\Local\Temp\surefire300611501947160682\surefirebooter1922396095351069305.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mgary2\AppData\Local\Temp\surefire11383228701975246754\surefirebooter11087437107048026254.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -56,49 +56,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="checkMonsterClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0.005">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;100&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<100> but was:<-1>
-	at project.assignment1.character.CharacterTests.checkMonsterClassFailedfulAttack(CharacterTests.java:152)
-]]></failure>
-  </testcase>
-  <testcase name="checkIfMonsterDecidesRandomly" classname="project.assignment1.character.CharacterTests" time="0.01">
+  <testcase name="checkMonsterClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0.002"/>
+  <testcase name="checkIfMonsterDecidesRandomly" classname="project.assignment1.character.CharacterTests" time="0.013">
     <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster contains a method decideMove() as per T4.2 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: &amp;#27;[47m&amp;#27;[30mIs your method Monster.decideMove() really random Our test on 100k tries shows that these many decisions were generated for each category up:0 down:0 left:0 right:0 See task 1.5 instructions&amp;#27;[0m" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster contains a method decideMove() as per T4.2 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: &amp#27;[47m&amp#27;[30mIs your method Monster.decideMove() really random Our test on 100k tries shows that these many decisions were generated for each category up:0 down:0 left:0 right:0 See task 1.5 instructions&amp#27;[0m
 	at project.assignment1.character.CharacterTests.checkIfMonsterDecidesRandomly(CharacterTests.java:325)
 ]]></failure>
   </testcase>
-  <testcase name="checkHealthFunctionality" classname="project.assignment1.character.CharacterTests" time="0.001">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class GameCharacter contains methods getHealth()and setHealth() as per T1.3 &amp;#27;[0mjava.lang.AssertionError: expected:&lt;100&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class GameCharacter contains methods getHealth()and setHealth() as per T1.3 &amp#27;[0mjava.lang.AssertionError: expected:<100> but was:<-1>
-	at project.assignment1.character.CharacterTests.checkHealthFunctionality(CharacterTests.java:86)
-]]></failure>
-  </testcase>
-  <testcase name="checkIfPlayerDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.004">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: &amp;#27;[47m&amp;#27;[30mIs your method Player.successfulDefence () really 30/70? Our test on 100k tries shows 100000:0 See task 1.5 instructions&amp;#27;[0m" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: &amp#27;[47m&amp#27;[30mIs your method Player.successfulDefence () really 30/70? Our test on 100k tries shows 100000:0 See task 1.5 instructions&amp#27;[0m
-	at project.assignment1.character.CharacterTests.checkIfPlayerDefenceLooksRandom(CharacterTests.java:282)
-]]></failure>
-  </testcase>
-  <testcase name="checkIfMonsterDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.004">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: &amp;#27;[47m&amp;#27;[30mIs your method Monster.successfulDefence () really random?&amp;#27;[0m" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: &amp#27;[47m&amp#27;[30mIs your method Monster.successfulDefence () really random?&amp#27;[0m
-	at project.assignment1.character.CharacterTests.checkIfMonsterDefenceLooksRandom(CharacterTests.java:184)
-]]></failure>
-  </testcase>
-  <testcase name="checkPlayerClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0.001">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;50&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<50> but was:<-1>
+  <testcase name="checkHealthFunctionality" classname="project.assignment1.character.CharacterTests" time="0"/>
+  <testcase name="checkIfPlayerDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.012"/>
+  <testcase name="checkIfMonsterDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.008"/>
+  <testcase name="checkPlayerClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0">
+    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;50&gt; but was:&lt;100&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<50> but was:<100>
 	at project.assignment1.character.CharacterTests.checkPlayerClassSuccesfulAttack(CharacterTests.java:217)
 ]]></failure>
   </testcase>
-  <testcase name="checkMonsterClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;80&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<80> but was:<-1>
+  <testcase name="checkMonsterClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0.001">
+    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;80&gt; but was:&lt;100&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<80> but was:<100>
 	at project.assignment1.character.CharacterTests.checkMonsterClassSuccesfulAttack(CharacterTests.java:119)
 ]]></failure>
   </testcase>
-  <testcase name="checkSayName" classname="project.assignment1.character.CharacterTests" time="0.002">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the constructor of GameCharacter class is modified and sayName() method exist as per T1.2 &amp;#27;[0morg.junit.ComparisonFailure: expected:&lt;[milan]&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the constructor of GameCharacter class is modified and sayName() method exist as per T1.2 &amp#27;[0morg.junit.ComparisonFailure: expected:<[milan]> but was:<[]>
-	at project.assignment1.character.CharacterTests.checkSayName(CharacterTests.java:59)
-]]></failure>
-  </testcase>
-  <testcase name="checkPlayerClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;100&gt; but was:&lt;-1&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<100> but was:<-1>
-	at project.assignment1.character.CharacterTests.checkPlayerClassFailedfulAttack(CharacterTests.java:250)
-]]></failure>
-  </testcase>
+  <testcase name="checkSayName" classname="project.assignment1.character.CharacterTests" time="0"/>
+  <testcase name="checkPlayerClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0"/>
 </testsuite>
