@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.assignment1.character.CharacterTests" time="0.068" tests="9" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.assignment1.character.CharacterTests" time="0.063" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\mgary2\AppData\Local\Temp\surefire1496557372130416169\surefirebooter3935500380739091962.jar C:\Users\mgary2\AppData\Local\Temp\surefire1496557372130416169 2021-11-11T17-35-02_607-jvmRun1 surefire5996775310323518641tmp surefire_02451868612606480850tmp"/>
+    <property name="sun.java.command" value="C:\Users\mgary2\AppData\Local\Temp\surefire4712580395088497522\surefirebooter15088415499910079008.jar C:\Users\mgary2\AppData\Local\Temp\surefire4712580395088497522 2021-11-12T03-15-02_236-jvmRun1 surefire9090947251598596193tmp surefire_012386549918928931714tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mgary2\Desktop\ca1\rename-student_name\target\test-classes;C:\Users\mgary2\Desktop\ca1\rename-student_name\target\classes;C:\Users\mgary2\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mgary2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mgary2\AppData\Local\Temp\surefire1496557372130416169\surefirebooter3935500380739091962.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mgary2\AppData\Local\Temp\surefire4712580395088497522\surefirebooter15088415499910079008.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -57,24 +57,12 @@
     <property name="java.class.version" value="61.0"/>
   </properties>
   <testcase name="checkMonsterClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0.002"/>
-  <testcase name="checkIfMonsterDecidesRandomly" classname="project.assignment1.character.CharacterTests" time="0.014">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster contains a method decideMove() as per T4.2 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: &amp;#27;[47m&amp;#27;[30mIs your method Monster.decideMove() really random Our test on 100k tries shows that these many decisions were generated for each category up:0 down:0 left:0 right:0 See task 1.5 instructions&amp;#27;[0m" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster contains a method decideMove() as per T4.2 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: &amp#27;[47m&amp#27;[30mIs your method Monster.decideMove() really random Our test on 100k tries shows that these many decisions were generated for each category up:0 down:0 left:0 right:0 See task 1.5 instructions&amp#27;[0m
-	at project.assignment1.character.CharacterTests.checkIfMonsterDecidesRandomly(CharacterTests.java:325)
-]]></failure>
-  </testcase>
-  <testcase name="checkHealthFunctionality" classname="project.assignment1.character.CharacterTests" time="0"/>
-  <testcase name="checkIfPlayerDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.013"/>
-  <testcase name="checkIfMonsterDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.009"/>
-  <testcase name="checkPlayerClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0.001">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;50&gt; but was:&lt;100&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<50> but was:<100>
-	at project.assignment1.character.CharacterTests.checkPlayerClassSuccesfulAttack(CharacterTests.java:217)
-]]></failure>
-  </testcase>
-  <testcase name="checkMonsterClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0">
-    <failure message="&amp;#27;[47m&amp;#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp;#27;[0mjava.lang.AssertionError: expected:&lt;80&gt; but was:&lt;100&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: &amp#27;[47m&amp#27;[30mMake sure the class Monster implements method hurtCharacter() as per T1.4 and all previous tasks have been completed.&amp#27;[0mjava.lang.AssertionError: expected:<80> but was:<100>
-	at project.assignment1.character.CharacterTests.checkMonsterClassSuccesfulAttack(CharacterTests.java:119)
-]]></failure>
-  </testcase>
+  <testcase name="checkIfMonsterDecidesRandomly" classname="project.assignment1.character.CharacterTests" time="0.018"/>
+  <testcase name="checkHealthFunctionality" classname="project.assignment1.character.CharacterTests" time="0.001"/>
+  <testcase name="checkIfPlayerDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.008"/>
+  <testcase name="checkIfMonsterDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.008"/>
+  <testcase name="checkPlayerClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0"/>
+  <testcase name="checkMonsterClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0.001"/>
   <testcase name="checkSayName" classname="project.assignment1.character.CharacterTests" time="0.001"/>
   <testcase name="checkPlayerClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0"/>
 </testsuite>

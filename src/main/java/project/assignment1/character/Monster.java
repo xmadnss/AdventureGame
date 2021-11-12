@@ -10,8 +10,8 @@ public class Monster extends GameCharacter {
 
 
 	public void hurtCharacter(GameCharacter character) {
-		if(!successfulDefense()) {
-			setHealth(getHealth()- 20);
+		if(!character.successfulDefense()) {
+			character.setHealth(character.getHealth() - 20);
 		}
 	}
 
@@ -31,8 +31,10 @@ public class Monster extends GameCharacter {
 
 	
 	public String decideMove () {
+		String[] move = {"up", "down", "left", "right"};
+		Random rand = new Random();
 		
-		return "move";
+		return move[rand.nextInt(4)];
 	}
 
 }

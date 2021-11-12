@@ -20,12 +20,19 @@ public GameCharacter characters [] = new GameCharacter [4];
 	  Monster m2 = new Monster("Monster2");
 	  Monster m3 = new Monster("Monster3");
 	  
+	  //bottom right
 	  p.row = layout.length - 1;
 	  p.column = layout[0].length - 1;
-	  m1.row = layout.length - 1;
-	  m1.column = 0;
-	  m2.row = 0;
-	  m2.column = layout[0].length - 1;
+	  
+	  //top right
+	  m1.row = 0;
+	  m1.column = layout[0].length - 1;
+	  
+	  //bottom left
+	  m2.row = layout.length - 1;
+	  m2.column = 0;
+	  
+	  //top left
 	  m3.row = 0;
 	  m3.column = 0;
 	  
@@ -45,7 +52,7 @@ public GameCharacter characters [] = new GameCharacter [4];
 			  else if(h == layout.length - 1 && w == 0) {
 				  layout[h][w] = "%";
 			  }
-			  else if(h == layout.length - 1 && w == layout[0].length - 1) {
+			  else if(h == layout.length - 1 && w == layout[h].length - 1) {
 				  layout[h][w] = "*";
 			  }
 			  else {

@@ -11,8 +11,8 @@ public class Player extends GameCharacter{
 	
 	public
 	void hurtCharacter(GameCharacter character) {
-		if(!successfulDefense()) {
-			setHealth(getHealth() - 50);
+		if(!character.successfulDefense()) {
+			character.setHealth(character.getHealth() - 50);
 		}
 	}
 
