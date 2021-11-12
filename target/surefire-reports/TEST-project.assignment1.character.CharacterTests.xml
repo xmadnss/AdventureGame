@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.assignment1.character.CharacterTests" time="0.063" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="project.assignment1.character.CharacterTests" time="0.068" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\mgary2\AppData\Local\Temp\surefire4712580395088497522\surefirebooter15088415499910079008.jar C:\Users\mgary2\AppData\Local\Temp\surefire4712580395088497522 2021-11-12T03-15-02_236-jvmRun1 surefire9090947251598596193tmp surefire_012386549918928931714tmp"/>
+    <property name="sun.java.command" value="C:\Users\mgary2\AppData\Local\Temp\surefire5004029876193947983\surefirebooter14396537307393197560.jar C:\Users\mgary2\AppData\Local\Temp\surefire5004029876193947983 2021-11-12T05-43-28_641-jvmRun1 surefire17164318996051044410tmp surefire_02410408622004062313tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mgary2\Desktop\ca1\rename-student_name\target\test-classes;C:\Users\mgary2\Desktop\ca1\rename-student_name\target\classes;C:\Users\mgary2\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mgary2\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mgary2\AppData\Local\Temp\surefire4712580395088497522\surefirebooter15088415499910079008.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mgary2\AppData\Local\Temp\surefire5004029876193947983\surefirebooter14396537307393197560.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -49,20 +49,20 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\mgary2\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mgary2\bin;C:\Users\mgary2\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin;C:\Users\mgary2\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\mgary2\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\mgary2\bin;C:\Users\mgary2\Downloads\apache-maven-3.8.3-bin\apache-maven-3.8.3\bin;C:\Users\mgary2\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C;C:\Program Files\Java\jdk-17.0.1;C;C:\Program Files\Git\Program Files\Java\jdk-17.0.1\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="checkMonsterClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0.002"/>
-  <testcase name="checkIfMonsterDecidesRandomly" classname="project.assignment1.character.CharacterTests" time="0.018"/>
+  <testcase name="checkMonsterClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0.004"/>
+  <testcase name="checkIfMonsterDecidesRandomly" classname="project.assignment1.character.CharacterTests" time="0.017"/>
   <testcase name="checkHealthFunctionality" classname="project.assignment1.character.CharacterTests" time="0.001"/>
-  <testcase name="checkIfPlayerDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.008"/>
+  <testcase name="checkIfPlayerDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.009"/>
   <testcase name="checkIfMonsterDefenceLooksRandom" classname="project.assignment1.character.CharacterTests" time="0.008"/>
-  <testcase name="checkPlayerClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0"/>
+  <testcase name="checkPlayerClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0.002"/>
   <testcase name="checkMonsterClassSuccesfulAttack" classname="project.assignment1.character.CharacterTests" time="0.001"/>
   <testcase name="checkSayName" classname="project.assignment1.character.CharacterTests" time="0.001"/>
-  <testcase name="checkPlayerClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0"/>
+  <testcase name="checkPlayerClassFailedfulAttack" classname="project.assignment1.character.CharacterTests" time="0.001"/>
 </testsuite>

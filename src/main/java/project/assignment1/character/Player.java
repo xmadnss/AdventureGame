@@ -13,6 +13,10 @@ public class Player extends GameCharacter{
 	void hurtCharacter(GameCharacter character) {
 		if(!character.successfulDefense()) {
 			character.setHealth(character.getHealth() - 50);
+			System.out.println("!!HIT!!" + sayName() + " successfully attacked " + character.sayName());
+		}
+		else {
+			System.out.println("!!MISS!!" + character.sayName() + " successfully defended attack from " + sayName());
 		}
 	}
 

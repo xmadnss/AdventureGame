@@ -1,40 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: project.assignment1.game.GameTests
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 2.077 s <<< FAILURE! - in project.assignment1.game.GameTests
-checkMarkingKilledMonster(project.assignment1.game.GameTests)  Time elapsed: 0.002 s  <<< FAILURE!
-java.lang.AssertionError: [47m[30mSomething is not right. It seems that it is not possible to kill a monster...   Check Task 5.2[0mjava.lang.AssertionError
-	at project.assignment1.game.GameTests.checkMarkingKilledMonster(GameTests.java:641)
-
-checkMoveCharacterFull(project.assignment1.game.GameTests)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: [47m[30mSomething is not right.  Check Task 3.4[0mjava.lang.AssertionError: expected:<8> but was:<9>
-	at project.assignment1.game.GameTests.checkMoveCharacterFull(GameTests.java:401)
-
-checkEndGame(project.assignment1.game.GameTests)  Time elapsed: 0.001 s  <<< FAILURE!
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.073 s <<< FAILURE! - in project.assignment1.game.GameTests
+checkEndGame(project.assignment1.game.GameTests)  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: [47m[30mSomething is not right. It seems that it is not possible to win or lose the game.   Check Task 5.5[0mjava.lang.AssertionError
 	at project.assignment1.game.GameTests.checkEndGame(GameTests.java:684)
 
 checkHealthInformationPrinted(project.assignment1.game.GameTests)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: [47m[30mSomething is not right. Are you printing the health information    Check Task 5.1[0mjava.lang.AssertionError: expected:<1> but was:<0>
 	at project.assignment1.game.GameTests.checkHealthInformationPrinted(GameTests.java:547)
-
-checkMoveToOccupiedField(project.assignment1.game.GameTests)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.AssertionError: [47m[30mSomething is not right.    Check Task 4.4[0mjava.lang.AssertionError
-	at project.assignment1.game.GameTests.checkMoveToOccupiedField(GameTests.java:517)
-
-checkKillingPlayer(project.assignment1.game.GameTests)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.AssertionError: [47m[30mSomething is not right. It seems that monster can't kill the player...   Check Task 5.3[0mjava.lang.AssertionError
-	at project.assignment1.game.GameTests.checkKillingPlayer(GameTests.java:606)
-
-checkMoveOfPlayers(project.assignment1.game.GameTests)  Time elapsed: 0.007 s  <<< FAILURE!
-java.lang.AssertionError: [47m[30mSomething is not right.  Check Task 4.3[0mjava.lang.AssertionError: [47m[30mSomething is not right. Your characters don't seem to be moving.  Check Task 4.3[0m
-	at project.assignment1.game.GameTests.checkMoveOfPlayers(GameTests.java:492)
-
-checkKillingMonster(project.assignment1.game.GameTests)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: [47m[30mSomething is not right. It seems that it is not possible to kill a monster...   Check Task 5.2[0mjava.lang.AssertionError
-	at project.assignment1.game.GameTests.checkKillingMonster(GameTests.java:576)
-
-checkMoveIntoWall(project.assignment1.game.GameTests)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: [47m[30mSomething is not right.  Check Task 4.1[0mjava.lang.AssertionError
-	at project.assignment1.game.GameTests.checkMoveIntoWall(GameTests.java:450)
 

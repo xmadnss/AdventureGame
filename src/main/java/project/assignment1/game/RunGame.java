@@ -20,15 +20,8 @@ public class RunGame {
 			
 			move = scan.nextLine();
 			
-			GameLogic.moveCharacter(move, g.getMap(), g.getMap().characters[0]);
-			
-			if(g.getMap().characters[0].getHealth() == 0) {
+			if(g.nextRound(move)) {
 				gameOver = true;
-				System.out.println("YOU HAVE DIED!");
-			}
-			else if(g.getMap().characters[1].getHealth() == 0 && g.getMap().characters[2].getHealth() == 0 && g.getMap().characters[3].getHealth() == 0) {
-				gameOver = true;
-				System.out.println("YOU HAVE WON!");
 			}
 
 			g.getMap().printLayout();
