@@ -27,10 +27,12 @@ public class Game {
 		}
 		
 		if(m.characters[0].getHealth() <= 0) {
+			System.out.println();
 			System.out.println("YOU HAVE DIED!");
 			return true;
 		}
 		else if(m.characters[1].getHealth() <= 0 && m.characters[2].getHealth() <= 0 && m.characters[3].getHealth() <= 0) {
+			System.out.println();
 			System.out.println("YOU HAVE WON!");
 			return true;
 		}

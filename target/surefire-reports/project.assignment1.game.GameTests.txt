@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: project.assignment1.game.GameTests
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.073 s <<< FAILURE! - in project.assignment1.game.GameTests
-checkEndGame(project.assignment1.game.GameTests)  Time elapsed: 0 s  <<< FAILURE!
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.083 s <<< FAILURE! - in project.assignment1.game.GameTests
+checkEndGame(project.assignment1.game.GameTests)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: [47m[30mSomething is not right. It seems that it is not possible to win or lose the game.   Check Task 5.5[0mjava.lang.AssertionError
 	at project.assignment1.game.GameTests.checkEndGame(GameTests.java:684)
 

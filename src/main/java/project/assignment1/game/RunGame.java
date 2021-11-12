@@ -13,18 +13,29 @@ public class RunGame {
 		String move = "";
 		
 		g.getMap().printLayout();
+		System.out.println();
 		
         while (!gameOver) {
 			round++;
 			System.out.println("Round " + round);
+			System.out.println();
 			
 			move = scan.nextLine();
 			
 			if(g.nextRound(move)) {
 				gameOver = true;
 			}
-
+			
+			System.out.println();
+			
+			System.out.println("Health Player:  " + g.getMap().characters[0].getHealth());
+			System.out.println("Health Monster1:  " + g.getMap().characters[1].getHealth());
+			System.out.println("Health Monster2:  " + g.getMap().characters[2].getHealth());
+			System.out.println("Health Monster3:  " + g.getMap().characters[3].getHealth());
+			
+			System.out.println();
 			g.getMap().printLayout();
+			System.out.println();
 		}
 	}
 
